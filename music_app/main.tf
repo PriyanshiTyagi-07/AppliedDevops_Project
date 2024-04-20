@@ -8,8 +8,6 @@ terraform {
 }
 provider "aws" {
 region = "ap-south-1"
-access_key = "AKIAZI2LCH2RLU5PG55C"
-secret_key = "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"
 }
 resource "aws_instance" "My-instance" {
   instance_type = "t2.micro"
